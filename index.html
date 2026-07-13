@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Medical Emergency Donation</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:
+linear-gradient(rgba(0,40,70,.65),rgba(0,40,70,.65)),
+url("https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+}
+
+.card{
+width:90%;
+max-width:500px;
+padding:35px;
+text-align:center;
+background:rgba(255,255,255,.15);
+backdrop-filter:blur(12px);
+border-radius:20px;
+color:#fff;
+box-shadow:0 10px 35px rgba(0,0,0,.4);
+}
+
+h1{
+font-size:38px;
+margin-bottom:15px;
+}
+
+p{
+font-size:18px;
+margin-bottom:30px;
+line-height:1.6;
+}
+
+.footer{
+margin-top:25px;
+font-size:14px;
+opacity:.9;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>🏥 Medical Emergency Donation</h1>
+
+<p>
+Your support can help save a life.
+Every contribution brings hope to someone in need.
+</p>
+
+<form>
+<script src="https://checkout.razorpay.com/v1/payment-button.js"
+data-payment_button_id="pl_TCv4usWu2EgEmA"
+async>
+</script>
+</form>
+
+<div class="footer">
+Thank you for your kindness ❤️
+</div>
+
+</div>
+
+</body>
+</html>
